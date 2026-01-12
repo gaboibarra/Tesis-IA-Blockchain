@@ -81,6 +81,7 @@ npx hardhat compile
 npx hardhat run .\scripts\deploy.js --network localhost
 
 ```
+Nota: El script de despliegue actualizará automáticamente el archivo .env en la raíz con la nueva CONTRACT_ADDRESS.
 
 
 
