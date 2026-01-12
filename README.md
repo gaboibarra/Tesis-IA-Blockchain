@@ -66,3 +66,13 @@ py -3.13 -m venv .venv
 
 # Instalar dependencias exactas (Auditadas)
 pip install -r requirements.txt
+```
+
+### 2. Compilar y Desplegar Smart Contracts
+
+
+
+
+
+
+
