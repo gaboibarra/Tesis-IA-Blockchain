@@ -69,8 +69,18 @@ pip install -r requirements.txt
 ```
 
 ### 2. Compilar y Desplegar Smart Contracts
+Asegúrate de que Ganache esté corriendo en http://127.0.0.1:8545 (Chain ID: 1337).
 
+```powershell
 
+cd hardhat
+npm install
+npx hardhat compile
+
+# Despliegue en red local
+npx hardhat run .\scripts\deploy.js --network localhost
+
+```
 
 
 
