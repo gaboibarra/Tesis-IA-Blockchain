@@ -232,11 +232,12 @@ Este proyecto se distribuye bajo la licencia **MIT**. Si utilizas este código o
 ### 📩 Contacto
 Para consultas académicas o técnicas sobre la implementación:
 
-* **Autor:** Gabriel Ibarra
+* **Autor:** Gabriel Ibarra 🇻🇪
 * **Perfil:** [github.com/gaboibarra](https://github.com/gaboibarra)
 
 ---
 *Hecho con 🐍 Python, ⛓️ Solidity y mucho ☕ en Buenos Aires.*
+
 
 
 
