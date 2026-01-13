@@ -134,3 +134,43 @@ python .\dashboard\app.py
 python .\scripts\run_e2e.py --limit 500
 
 ```
+### 📊 Resultados de la Validación
+
+Métricas obtenidas en el conjunto de prueba (Test Set):
+
+- Rendimiento del Modelo:
+  - PR-AUC: 0.826 (vs Baseline reglas estáticas)
+  - Recall@100: 0.833
+- Eficiencia Operativa:
+  - Latencia p95 (Scoring): ~71.7 ms
+  - Latencia p95 (E2E con Blockchain): ~95.1 ms
+- Integridad:
+  - Correlación Decisión $\to$ Evento: 100%
+ 
+### 📂 Estructura del Proyecto
+
+fraudchain/
+├── api/                 # API Flask y middleware Web3
+├── contracts/           # Smart Contracts (Solidity)
+├── dashboard/           # Interfaz gráfica (Dash/Plotly)
+├── data/                # Datasets (raw/processed)
+├── hardhat/             # Entorno de desarrollo Ethereum
+├── models/              # Artefactos serializados (.joblib)
+├── reports/             # Métricas JSON y curvas de evaluación
+├── scripts/             # Scripts de orquestación E2E
+└── src/                 # Lógica core de ML (entrenamiento/evaluación)
+
+### 🔧 Solución de Problemas Comunes
+
+
+
+
+
+
+
+
+
+
+
+
+
