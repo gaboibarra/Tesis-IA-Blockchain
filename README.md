@@ -232,12 +232,12 @@ Este proyecto se distribuye bajo la licencia **MIT**. Si utilizas este código o
 ### 📩 Contacto
 Para consultas académicas o técnicas sobre la implementación:
 
-* **Autor:** Gabriel Ibarra 🇻🇪
-* * **Autor:** Gabriel Ibarra <img src="https://flagcdn.com/16x12/ve.png" alt="Venezuela" width="16" />
+*  **Autor:** Gabriel Ibarra <img src="https://flagcdn.com/16x12/ve.png" alt="Venezuela" width="16" />
 * **Perfil:** [github.com/gaboibarra](https://github.com/gaboibarra)
 
 ---
 *Hecho con 🐍 Python, ⛓️ Solidity y mucho ☕ en Buenos Aires.*
+
 
 
 
