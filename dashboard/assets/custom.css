@@ -1,0 +1,8 @@
+﻿body { font-family: Inter, "Segoe UI", system-ui, -apple-system, Arial, sans-serif; }
+.section-title { margin: 0 0 12px 0; }
+.contract-code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 0.85rem; }
+.kpi-card { border: 0; border-radius: 16px; }
+.kpi-title { color:#6c757d; font-size: 0.85rem; }
+.kpi-value { font-size: 1.8rem; font-weight: 700; line-height: 1.1; }
+.kpi-sub { color:#6c757d; font-size: 0.8rem; margin-top: 4px; }
+.controls { padding: 6px 0; }
