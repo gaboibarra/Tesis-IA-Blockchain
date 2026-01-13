@@ -1,4 +1,4 @@
-# FraudChain: Arquitectura Híbrida de IA y Blockchain para Seguridad FinTech
+# Caso de Estudio: Arquitectura Híbrida de IA y Blockchain para Seguridad FinTech
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Python](https://img.shields.io/badge/Python-3.13.5-blue)
@@ -12,7 +12,7 @@
 
 ## 📖 Resumen del Proyecto
 
-**FraudChain** es una prueba de concepto (PoC) que implementa una arquitectura de seguridad híbrida diseñada para resolver el trilema de **privacidad**, **latencia** y **trazabilidad** en plataformas FinTech.
+Se trata de una prueba de concepto (PoC) que implementa una arquitectura de seguridad híbrida diseñada para resolver el trilema de **privacidad**, **latencia** y **trazabilidad** en plataformas FinTech.
 
 El sistema integra un modelo de **Machine Learning (Random Forest)** para la detección de fraude en tiempo real con contratos inteligentes en **Ethereum** para garantizar la inmutabilidad de los registros de auditoría, utilizando un esquema de *Privacy-by-Design* (hashing off-chain) que no expone datos sensibles (PII).
 
@@ -161,6 +161,7 @@ fraudchain/
 └── src/                 # Lógica core de ML (entrenamiento/evaluación)
 
 ### 🔧 Solución de Problemas Comunes
+
 
 
 
