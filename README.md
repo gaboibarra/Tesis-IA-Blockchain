@@ -83,6 +83,28 @@ npx hardhat run .\scripts\deploy.js --network localhost
 ```
 Nota: El script de despliegue actualizará automáticamente el archivo .env en la raíz con la nueva CONTRACT_ADDRESS.
 
+### 3. Pipeline de Datos y Entrenamiento (IA)
+
+Ejecuta el preprocesamiento y entrenamiento del modelo con los hiperparámetros de la tesis:
+
+```powershell
+
+# Volver a la raíz
+cd ..
+
+# 1. Preprocesamiento (Split out-of-time + estratificación)
+python .\src\data.py --input .\data\creditcard.csv --sample-frac 0.3
+
+# 2. Entrenamiento (Random Forest con ajuste de umbral F1)
+python .\src\train_rf.py --data-dir .\data\processed --k 100 500 --th-mode f1
+
+```
+
+
+
+
+
+
 
 
 
