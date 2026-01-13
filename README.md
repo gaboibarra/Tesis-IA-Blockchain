@@ -165,10 +165,17 @@ fraudchain/
 
 ### 🔧 Solución de Problemas Comunes
 
+### 1. Error ModuleNotFoundError:
 
+Asegúrate de ejecutar $env:PYTHONPATH = (Get-Location).Path en PowerShell antes de iniciar la API.
 
+### 2. Error de codificación en Solidity:
 
+Si Hardhat falla al compilar, verifica que TxRegistry.sol esté guardado con codificación UTF-8 sin BOM.
 
+### 3. Puertos ocupados:
+
+Libera los puertos 5000 (API) y 8050 (Dashboard) o modifícalos en api/app.py y dashboard/app.py.
 
 
 
