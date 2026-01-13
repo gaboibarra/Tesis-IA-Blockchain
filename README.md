@@ -229,3 +229,4 @@ Libera los puertos 5000 (API) y 8050 (Dashboard) o modifícalos en api/app.py y 
 
 
 
+
