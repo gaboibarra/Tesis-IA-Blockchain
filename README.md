@@ -186,10 +186,14 @@ Set-ExecutionPolicy -Scope Process Bypass
 ```
 ### 🟢 Opción B: Ejecucion Modular
 
-Script,Función
-.\start_all.ps1,"Inicia Ganache, API y Dashboard en ventanas separadas."
-.\run_e2e.ps1,Ejecuta la simulación de tráfico y muestra métricas en consola.
-.\stop_all.ps1,"Detiene todos los procesos (Python, Node, Ganache) para limpiar el entorno."
+## 🛠️ Scripts disponibles
+
+| Script              | Función |
+|---------------------|---------|
+| `start_all.ps1`     | Inicia Ganache, la API y el Dashboard en ventanas separadas. |
+| `run_e2e.ps1`       | Ejecuta la simulación de tráfico y muestra métricas en consola. |
+| `stop_all.ps1`      | Detiene todos los procesos (Python, Node y Ganache) para limpiar el entorno. |
+
 
 
 ### 🔧 Solución de Problemas Comunes
@@ -205,6 +209,7 @@ Si Hardhat falla al compilar, verifica que TxRegistry.sol esté guardado con cod
 ### 3. Puertos ocupados:
 
 Libera los puertos 5000 (API) y 8050 (Dashboard) o modifícalos en api/app.py y dashboard/app.py.
+
 
 
 
