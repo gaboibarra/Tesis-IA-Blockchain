@@ -147,20 +147,24 @@ Métricas obtenidas en el conjunto de prueba (Test Set):
 - Integridad:
   - Correlación Decisión $\to$ Evento: 100%
  
-### 📂 Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
+```text
 fraudchain/
-├── api/                 # API Flask y middleware Web3
-├── contracts/           # Smart Contracts (Solidity)
-├── dashboard/           # Interfaz gráfica (Dash/Plotly)
-├── data/                # Datasets (raw/processed)
-├── hardhat/             # Entorno de desarrollo Ethereum
-├── models/              # Artefactos serializados (.joblib)
-├── reports/             # Métricas JSON y curvas de evaluación
-├── scripts/             # Scripts de orquestación E2E
-└── src/                 # Lógica core de ML (entrenamiento/evaluación)
+├── api/            # API Flask y middleware Web3
+├── contracts/      # Smart Contracts (Solidity)
+├── dashboard/      # Interfaz gráfica (Dash / Plotly)
+├── data/           # Datasets (raw / processed)
+├── hardhat/        # Entorno de desarrollo Ethereum
+├── models/         # Artefactos serializados (joblib)
+├── reports/        # Métricas JSON y curvas de evaluación
+├── scripts/        # Scripts de orquestación E2E
+└── src/            # Lógica core de ML (entrenamiento / evaluación)
+```
+
 
 ### 🔧 Solución de Problemas Comunes
+
 
 
 
