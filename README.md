@@ -125,5 +125,12 @@ Visualización en tiempo real en http://127.0.0.1:8050.
 python .\dashboard\app.py
 
 ```
+### Terminal 3: Generador de Tráfico (Cliente)
 
+```powershell
 
+.\.venv\Scripts\Activate.ps1
+# Procesar 500 transacciones de prueba
+python .\scripts\run_e2e.py --limit 500
+
+```
