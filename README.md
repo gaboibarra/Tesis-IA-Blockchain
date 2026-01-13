@@ -100,10 +100,21 @@ python .\src\train_rf.py --data-dir .\data\processed --k 100 500 --th-mode f1
 
 ```
 
+### ▶️ Ejecución del Prototipo (E2E)
 
+Para simular un entorno productivo, abre 3 terminales de PowerShell separadas:
 
+Terminal 1: API de Detección (Backend)
+Expone el endpoint /score en el puerto 5000.
 
+```powershell
 
+# Activar entorno primero
+.\.venv\Scripts\Activate.ps1
+$env:PYTHONPATH = (Get-Location).Path
+python -m api.app
+
+```
 
 
 
