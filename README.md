@@ -104,7 +104,7 @@ python .\src\train_rf.py --data-dir .\data\processed --k 100 500 --th-mode f1
 
 Para simular un entorno productivo, abre 3 terminales de PowerShell separadas:
 
-## Terminal 1: API de Detección (Backend)
+### Terminal 1: API de Detección (Backend)
 Expone el endpoint /score en el puerto 5000.
 
 ```powershell
@@ -116,8 +116,14 @@ python -m api.app
 
 ```
 
+### Terminal 2: Dashboard de Operaciones (Frontend)
+Visualización en tiempo real en http://127.0.0.1:8050.
 
+```powershell
 
+.\.venv\Scripts\Activate.ps1
+python .\dashboard\app.py
 
+```
 
 
