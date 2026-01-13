@@ -6,8 +6,11 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 > **Repositorio oficial de la Tesis de Maestría en Tecnología Informática**
+> 
 > **UAI Universidad Abierta Interamericana**
-> **Autor:** Gabriel Ibarra  
+> 
+> **Autor:** Gabriel Ibarra
+>  
 > **Fecha:** Enero 2026
 
 
@@ -177,6 +180,7 @@ Si Hardhat falla al compilar, verifica que TxRegistry.sol esté guardado con cod
 ### 3. Puertos ocupados:
 
 Libera los puertos 5000 (API) y 8050 (Dashboard) o modifícalos en api/app.py y dashboard/app.py.
+
 
 
 
