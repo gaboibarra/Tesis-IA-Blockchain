@@ -169,6 +169,28 @@ fraudchain/
 ```
 
 
+### ⚡ Quick Start (Automatización Windows)
+
+Para facilitar la evaluación, la demo y la **reproducibilidad científica**, se incluyen scripts de PowerShell en la raíz del proyecto que orquestan todo el ciclo de vida.
+
+> **Nota:** Estos scripts asumen que ya tienes instalado Python, Node.js y Ganache.
+
+### 🟢 Opción A: "Zero to Hero" (Despliegue Completo)
+El script `setup_and_run_all.ps1` realiza todo el proceso desde cero: crea el entorno virtual, instala dependencias, compila contratos, despliega en Ganache y lanza todos los servicios automáticamente.
+
+```powershell
+# Ejecutar en PowerShell como Administrador desde la raíz
+Set-ExecutionPolicy -Scope Process Bypass
+.\setup_and_run_all.ps1
+
+
+
+
+
+
+
+
+
 ### 🔧 Solución de Problemas Comunes
 
 ### 1. Error ModuleNotFoundError:
@@ -182,6 +204,7 @@ Si Hardhat falla al compilar, verifica que TxRegistry.sol esté guardado con cod
 ### 3. Puertos ocupados:
 
 Libera los puertos 5000 (API) y 8050 (Dashboard) o modifícalos en api/app.py y dashboard/app.py.
+
 
 
 
