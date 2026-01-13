@@ -194,7 +194,7 @@ Set-ExecutionPolicy -Scope Process Bypass
 .\setup_and_run_all.ps1
 
 ```
-### 🟢 Opción B: Ejecucion Modular
+### 🟢 Opción B: Ejecución Modular
 
 ## 🛠️ Scripts disponibles
 
@@ -237,6 +237,7 @@ Para consultas académicas o técnicas sobre la implementación:
 
 ---
 *Hecho con 🐍 Python, ⛓️ Solidity y mucho ☕ en Buenos Aires.*
+
 
 
 
