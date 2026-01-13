@@ -5,7 +5,7 @@
 ![Solidity](https://img.shields.io/badge/Solidity-0.8.20-363636)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-> **Repositorio oficial de la Tesis de Maestría en Tecnología Informática**
+> **Repositorio oficial de la Tesis de Maestría en Tecnología Informática Impacto de la Inteligencia Artificial y Blockchain en la Mejora de la Seguridad en Plataformas FinTech **
 > 
 > **UAI Universidad Abierta Interamericana**
 > 
@@ -180,6 +180,7 @@ Si Hardhat falla al compilar, verifica que TxRegistry.sol esté guardado con cod
 ### 3. Puertos ocupados:
 
 Libera los puertos 5000 (API) y 8050 (Dashboard) o modifícalos en api/app.py y dashboard/app.py.
+
 
 
 
