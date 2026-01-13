@@ -220,6 +220,23 @@ Si Hardhat falla al compilar, verifica que TxRegistry.sol esté guardado con cod
 
 Libera los puertos 5000 (API) y 8050 (Dashboard) o modifícalos en api/app.py y dashboard/app.py.
 
+---
+
+## 📜 Licencia y Reconocimientos
+
+Este proyecto se distribuye bajo la licencia **MIT**. Si utilizas este código o la arquitectura propuesta para tu propia investigación, se agradece la citación correspondiente al trabajo de tesis original.
+
+> **Tesis de Maestría en Tecnología Informática**
+> Universidad Abierta Interamericana (UAI) - Enero 2026
+
+### 📩 Contacto
+Para consultas académicas o técnicas sobre la implementación:
+
+* **Autor:** Gabriel Ibarra
+* **Perfil:** [github.com/gaboibarra](https://github.com/gaboibarra)
+
+---
+*Hecho con 🐍 Python, ⛓️ Solidity y mucho ☕ en Buenos Aires.*
 
 
 
