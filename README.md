@@ -61,7 +61,7 @@ Sigue estos pasos secuenciales en **PowerShell (Administrador)** para replicar e
 
 ### 1. Clonar y Preparar Entorno
 ```powershell
-git clone [https://github.com/TU_USUARIO/Tesis-IA-Blockchain.git](https://github.com/TU_USUARIO/Tesis-IA-Blockchain.git)
+git clone [git clone https://github.com/gaboibarra/Tesis-IA-Blockchain.git](git clone https://github.com/gaboibarra/Tesis-IA-Blockchain.git)
 cd Tesis-IA-Blockchain
 
 # Crear entorno virtual Python
@@ -237,6 +237,7 @@ Para consultas académicas o técnicas sobre la implementación:
 
 ---
 *Hecho con 🐍 Python, ⛓️ Solidity y mucho ☕ en Buenos Aires.*
+
 
 
 
