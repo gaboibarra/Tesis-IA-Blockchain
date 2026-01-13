@@ -74,6 +74,16 @@ py -3.13 -m venv .venv
 pip install -r requirements.txt
 ```
 
+### 1.1. Obtención del Dataset (Requerido)
+El dataset **Credit Card Fraud Detection** no se incluye en el repositorio debido a su tamaño.
+
+1. Descarga el dataset desde [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
+2. Descomprime el archivo zip descargado.
+3. Mueve el archivo `creditcard.csv` a la carpeta `data/` en la raíz del proyecto.
+
+> **Verificación:** Antes de continuar, asegúrate de que el archivo exista en la ruta: `.\data\creditcard.csv`
+
+
 ### 2. Compilar y Desplegar Smart Contracts
 Asegúrate de que Ganache esté corriendo en http://127.0.0.1:8545 (Chain ID: 1337).
 
@@ -209,6 +219,7 @@ Si Hardhat falla al compilar, verifica que TxRegistry.sol esté guardado con cod
 ### 3. Puertos ocupados:
 
 Libera los puertos 5000 (API) y 8050 (Dashboard) o modifícalos en api/app.py y dashboard/app.py.
+
 
 
 
