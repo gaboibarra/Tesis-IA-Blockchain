@@ -38,7 +38,7 @@ El flujo de datos sigue un ciclo **Percepción → Decisión → Acción**:
 2.  **Decisión (AI Agent):** Clasificación mediante Random Forest optimizado para datos desbalanceados.
 3.  **Acción (On-chain):** Persistencia de decisiones "seguras" en la Blockchain mediante `TxRegistry.sol`.
 
-*(Nota: Ver Figura 1.1 del documento de tesis para el diagrama detallado)*
+*(Nota: Ver Figura 5.1 del documento de tesis para el diagrama detallado)*
 
 ---
 
