@@ -13,7 +13,7 @@
 > 
 > **Autor:** Gabriel Ibarra
 >  
-> **Fecha:** Enero 2026
+> **Fecha:** Abril 2026
 
 
 ## 📖 Resumen del Proyecto
